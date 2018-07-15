@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guide"
+        android:textSize="@dimen/font_size"
+        android:layout_margin="5dp"
+        android:paddingBottom="@dimen/layout_padding"/>
+
+    <!-- name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: " />
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="textPersonName"
+            android:hint="John Smith"/>
+    </LinearLayout>
+
+    <!-- address -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: " />
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:hint="11 Red St. Green City, ON, Canada"/>
+    </LinearLayout>
+
+    <!-- credit card number -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Card Number: " />
+        <EditText
+            android:id="@+id/edtCreNum"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:hint="1234 5678 9876 543"/>
+    </LinearLayout>
+
+    <!-- credit card expiration date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expiration Date(YY/MM): " />
+        <EditText
+            android:id="@+id/edtCreDate"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="date"
+            android:hint="19/01"/>
+    </LinearLayout>
+
+    <!-- phone number -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number: " />
+        <EditText
+            android:id="@+id/edtPhNum"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="textPhonetic"
+            android:hint="647-123-1234"/>
+    </LinearLayout>
+
+    <!-- delivery date -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Pick Delivery Date"
+            android:textColor="#fff"
+            android:paddingBottom="@dimen/layout_padding"/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="Click the left button to pick a delivery date"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back"
+            android:onClick="GoTo_Previous"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placeOrder"
+            android:onClick="GoTo_Sixth"/>
+    </LinearLayout>
+
+
+</LinearLayout>

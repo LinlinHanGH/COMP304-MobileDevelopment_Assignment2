@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cellPhones"
+        android:title="Cell Phones"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/pcs"
+        android:title="Laptops or Notebooks"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/tvs"
+        android:title="Televisions or Smart TVs"
+        android:orderInCategory="3"/>
+    <item android:id="@+id/printers"
+        android:title="Printers"
+        android:orderInCategory="4"/>
+    <item android:id="@+id/accessories"
+        android:title="Accessories"
+        android:orderInCategory="5"/>
+</menu>

@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">LinlinHan_COMP304_Assignment2</string>
+    <string name="introduction">Please click the menu icon at the top-right corner to select the categoty!</string>
+    <string name="welcome">Welcome to Shop Online! </string>
+    <string name="guide">Please enter the customer information:</string>
+    <string name="orderInfo">Your Order Information: </string>
+    <string name="shop">SHOP</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="checkout">Checkout</string>
+    <string name="placeOrder">Place Order</string>
+
+<!-- cellPhone -->
+    <string-array name="cellPhones">
+        <item>iPhone</item>
+        <item>Samsung</item>
+        <item>Black Berry</item>
+        <item>Google</item>
+        <item>LG</item>
+    </string-array>
+
+    <string-array name="iphones">
+        <item>iPhone X</item>
+        <item>iPhone 8 Plus</item>
+        <item>iPhone 8</item>
+        <item>iPhone 7 Plus</item>
+        <item>iPhone 7</item>
+    </string-array>
+
+    <string-array name="sumsungs">
+        <item>Samsung Galaxy S9+</item>
+        <item>Samsung Galaxy 9</item>
+        <item>Samsung Galaxy note 8</item>
+        <item>Samsung Galaxy 8+</item>
+        <item>Samsung Galaxy 8</item>
+    </string-array>
+
+    <string-array name="blackBerry">
+        <item>Black Berry KEYone</item>
+        <item>Black Berry DTEK60</item>
+        <item>Black Berry DTEK50</item>
+    </string-array>
+
+    <string-array name="google">
+        <item>Google Nexus 5</item>
+        <item>Google Nexus 4</item>
+        <item>Google Nexus 7</item>
+    </string-array>
+
+    <string-array name="lg">
+        <item>LG V30</item>
+        <item>LG V20</item>
+        <item>LG V10</item>
+    </string-array>
+
+<!-- pc -->
+    <string-array name="pcs">
+        <item>Acer</item>
+        <item>Apple</item>
+        <item>Dell</item>
+    </string-array>
+
+    <string-array name="acers">
+        <item>Acer Swift 1</item>
+        <item>Acer Swift 2</item>
+        <item>Acer Swift 3</item>
+        <item>Acer Aspire</item>
+    </string-array>
+
+    <string-array name="apple">
+        <item>iMac</item>
+        <item>iMac Air</item>
+        <item>Mac Pro</item>
+    </string-array>
+
+    <string-array name="dell">
+        <item>Dell Inspiron 17</item>
+        <item>Dell Inspiron 15</item>
+        <item>Dell Inspiron 13</item>
+    </string-array>
+
+<!-- tv -->
+    <string-array name="tvs">
+        <item>Sony</item>
+        <item>Panasonic</item>
+        <item>TOSHIBA</item>
+    </string-array>
+
+    <string-array name="sony">
+        <item>Sony smart</item>
+        <item>Sony 4K</item>
+        <item>Sony UHD</item>
+    </string-array>
+
+    <string-array name="panasonic">
+        <item>Panasonic smart</item>
+        <item>Panasonic VIERA</item>
+        <item>Panasonic HD</item>
+    </string-array>
+
+    <string-array name="toshiba">
+        <item>TOSHIBA smart</item>
+        <item>TOSHIBA 4K</item>
+        <item>TOSHIBA Thin</item>
+    </string-array>
+
+<!-- prints -->
+    <string-array name="printers">
+        <item>Canon</item>
+        <item>Epson</item>
+        <item>Lexmark</item>
+    </string-array>
+
+    <string-array name="canon">
+        <item>Canon smart</item>
+        <item>Canon 4K</item>
+        <item>Canon UHD</item>
+    </string-array>
+
+    <string-array name="epson">
+        <item>Epson smart</item>
+        <item>Epson VIERA</item>
+        <item>Epson HD</item>
+    </string-array>
+
+    <string-array name="lexmark">
+        <item>Lexmark smart</item>
+        <item>Lexmark 4K</item>
+        <item>Lexmark Thin</item>
+    </string-array>
+
+<!-- accessories -->
+    <string-array name="accessories">
+        <item>Nikon</item>
+        <item>Fujifilm</item>
+        <item>Leica</item>
+    </string-array>
+
+    <string-array name="nikon">
+        <item>Nikon smart</item>
+        <item>Nikon 4K</item>
+        <item>Nikon UHD</item>
+    </string-array>
+
+    <string-array name="fujifilm">
+        <item>Fujifilm smart</item>
+        <item>Fujifilm VIERA</item>
+        <item>Fujifilm HD</item>
+    </string-array>
+
+    <string-array name="leica">
+        <item>Leica smart</item>
+        <item>Leica 4K</item>
+        <item>Leica Thin</item>
+    </string-array>
+
+</resources>

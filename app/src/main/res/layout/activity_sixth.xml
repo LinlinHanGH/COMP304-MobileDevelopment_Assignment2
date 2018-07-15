@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixthActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orderInfo"
+        android:textSize="@dimen/font_size"
+        android:layout_margin="5dp"
+        android:paddingBottom="@dimen/layout_padding"
+        android:textColor="@color/colorDarkRed"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDarkRed"
+        android:paddingBottom="@dimen/layout_padding"/>
+
+    <!-- name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+    <!-- address -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+    <!-- credit card number -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Card Number: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtCreNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+    <!-- credit card number -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expiration Date: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtCreDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+    <!-- phone number -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtPhNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+    <!-- delivery date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Date: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+    <!-- category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+    <!-- brand -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brand: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+    <!-- product -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product: "
+            android:textColor="@color/colorDarkRed"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:id="@+id/txtProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorDarkRed"/>
+    </LinearLayout>
+
+
+</LinearLayout>
